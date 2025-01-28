@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audição Departamento de Cordas≤ - 30 de Janeiro 2025</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #e4e4e4;
+      color: #333;
+    }
+
+    header {
+      background-color: #f4f4f9;
+      color: #080707;
+      text-align: center;
+      padding: 1rem;
+      font-size: 1.5rem;
+
+    }
+
+    .logo {
+      width: 200px;
+      height: auto;
+      margin-right: 1rem;
+    }
+
+    .program-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 2rem;
+      padding-bottom: 5rem;
+    }
+
+    .piece {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1rem;
+      margin: 1rem;
+      width: 80%;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+    }
+
+    .piece:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .details {
+      display: none;
+      margin-top: 1rem;
+      color: #555;
+    }
+
+    @media (max-width: 600px) {
+      .details p:last-child {
+        position: static;
+        margin-top: 1rem;
+        text-align: right;
+        font-size: smaller;
+      }
+    }
+
+
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #f4f4f9;
+      color: #070606;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="logo.png" alt="Logo" class="logo">
+    <h1>Audição Departamento Cordas</h1>
+    <h3>30 de Janeiro 2025 - 19h00</h3>
+    <p style="font-size: 0.9rem;">
+      <strong style="display: block; margin-bottom: 0.5rem;">Docentes:</strong>
+      <span style="display: block; column-count: 3; column-gap: 1rem;">
+        Ana Sofia Mota<br>
+        Ana Catarina Claro<br>
+        Henrique Neto<br>
+        Jorge Teixeira<br>
+        Lúcia Lima<br>
+        Sérgio Barbosa<br>
+        Tiago Afonso<br>
+        Vítor Albuquerque
+      </span>
+    </p>
+  </header>
+
+  <div class="program-container">
+
+
+
+    <div class="piece" onclick="toggleDetails(this)">
+      <h2>Pedro Cerveira - 1º G Viola d´arco</h2>
+      <div class="details">
+        <p>Concertino op. 11, 1º andamento – F. Kuchler</p>
+        <p>Pianista Isabel Santos</p>
+      </div>
+    </div>
+
+
+    <div class="piece" onclick="toggleDetails(this)">
+      <h2>Vicente Gomes - 1º G Contrabaixo</h2>
+      <div class="details">
+        <p>Estudo – N. Baklanova </p>
+        <p>Pianista Eugénia Lameiro</p>
+      </div>
+    </div>
+
+    <div class="piece" onclick="toggleDetails(this)">
+      <h2>Francisca Almeida - 3º G Violino</h2>
+      <div class="details">
+        <p>Sicilienne et Rigaudon - F. Kreisler</p>
+        <p>Pianista Eugénia Lameiro</p>
+      </div>
+    </div>
+
+    <div class="piece" onclick="toggleDetails(this)">
+      <h2>Matilde Bessa - 5º G Violoncelo</h2>
+      <div class="details">
+        <p>Prelúdio da 1ª Suite – J. S. Bach</p>
+      </div>
+    </div>
+
+    <div class="piece" onclick="toggleDetails(this)">
+      <h2>Íris Santos - 5º G violino</h2>
+      <div class="details">
+        <p>Concerto op. 23, 1º andamento – G. Viotti</p>
+        <p>Pianista Valeriu Stanciu </p>
+      </div>
+    </div>
+
+    <div class="piece" onclick="toggleDetails(this)">
+      <h2>Francisco Machado - 5º G Viola d´arco</h2>
+      <div class="details">
+        <p>Concerto nº 2 em Sol Maior, 2º andamento – G. P. Telemann</p>
+        <p>Pianista Filipa Cardoso</p>
+      </div>
+    </div>
+
+    <div class="piece" onclick="toggleDetails(this)">
+      <h2>David Morais - 7º G violino</h2>
+      <div class="details">
+        <p>Solo op. 41 nº1 – Hubert Léonard</p>
+        <p>Pianista Isabel Santos</p>
+      </div>
+    </div>
+
+    <div class="piece" onclick="toggleDetails(this)">
+      <h2>Margarida Sousa - 7º G Contrabaixo</h2>
+      <div class="details">
+        <p>Concerto em Fá# menor, 1º andamento – S. Koussevitsky</p>
+        <p>Pianista Eugénia Lameiro</p>
+      </div>
+    </div>
+
+    <div class="piece" onclick="toggleDetails(this)">
+      <h2>Laura Alves - 7º G violino</h2>
+      <div class="details">
+        <p>Romance – R. Wagner</p>
+        <p>Pianista Eugénia Lameiro</p>
+      </div>
+    </div>
+
+    <div class="piece" onclick="toggleDetails(this)">
+      <h2>Matilde Sousa - 8º G violoncelo</h2>
+      <div class="details">
+        <p>Concerto em Dó Maior, 2º andamento – J. Haydn</p>
+        <p>Pianista Filipa Cardoso</p>
+      </div>
+    </div>
+
+
+  </div>
+
+  </div>
+
+  <footer>
+    <img src="logo.png" alt="Logo" class="logo" style="width: 60px;">
+    <img src="min.png" alt="Logo" class="logo" style="width: 100px;">
+  </footer>
+
+  <script>
+    function toggleDetails(element) {
+      const details = element.querySelector('.details');
+      if (details.style.display === 'block') {
+        details.style.display = 'none';
+      } else {
+        details.style.display = 'block';
+      }
+    }
+  </script>
+</body>
+
+</html>
